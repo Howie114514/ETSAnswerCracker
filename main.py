@@ -203,7 +203,6 @@ if __name__ == "__main__":
     mwui=Ui_MainWindow()
     mwui.setupUi(mw)
     mwui.textBrowser.write = Signal()
-    mwui.textBrowser.setText(generateAnswers(r"C:\Users\qq\AppData\Roaming\ETS\349399"))
     mwui.settingsBtn.clicked.connect(openSettingsDialog)
     mw.setWindowFlags(Qt.WindowType.WindowStaysOnTopHint)
     mwui.copyBtn.clicked.connect(lambda:app.clipboard().setText(mwui.textBrowser.toPlainText()+"由E听说外挂自动生成"))

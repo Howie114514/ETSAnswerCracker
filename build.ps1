@@ -1,2 +1,2 @@
-pyinstaller -F -w main.py
+pyinstaller main.spec
 Copy-Item dist/main.exe page/public/etsac.exe
