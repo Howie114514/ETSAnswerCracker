@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>351</width>
+    <height>298</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <property name="whatsThis">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;设置&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+  background-color:#fff
+}
+QTextBrowser{
+  background-color:#fff;
+  border:1px solid #ccc;
+  border-radius:5px
+}
+QPushButton{
+	background-color: rgb(0, 208, 24);
+	border:0px;
+	border-radius:5px;
+	color:#fff;
+	padding:3px;
+}
+QPushButton::hover{
+	background-color: rgb(0, 100, 10);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(189, 167, 0);
+border-radius:5px;
+color:#fff;
+padding:2px;</string>
+     </property>
+     <property name="text">
+      <string>⚠请设置E听说路径以探测答案路径</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="eLabel">
+       <property name="text">
+        <string>e听说路径</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="etsPathE"/>
+     </item>
+     <item row="1" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="detectETSPathBtn">
+         <property name="text">
+          <string>检测</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="Label">
+       <property name="text">
+        <string>答案显示方式</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="answerDisplayTypeCB">
+       <item>
+        <property name="text">
+         <string>最短答案</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>全部答案</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="Label_2">
+       <property name="text">
+        <string>显示开发者选项</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QCheckBox" name="CheckBox"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QWidget" name="devOptions" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">padding:0px;
+margin:0px;
+border:0px;</string>
+        </property>
+        <property name="text">
+         <string>开发者选项</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QFormLayout" name="formLayout_2">
+        <item row="0" column="1">
+         <widget class="QCheckBox" name="showDllConsoleCB"/>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="dllLabel">
+          <property name="text">
+           <string>显示dll控制台</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="about">
+     <property name="text">
+      <string>关于</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="save">
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="cancel">
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>MainWindow</class>
+  <widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>640</width>
+        <height>480</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>ETS外挂</string>
+    </property>
+    <property name="windowIcon">
+      <iconset resource="main.qrc">
+        <normaloff>:/main/icon.ico</normaloff>:/main/icon.ico</iconset>
+    </property>
+    <property name="styleSheet">
+      <string notr="true">#centralwidget{
+        background-color:#fff
+        }
+        #centralwidget QTextBrowser{
+        background-color:#fff;
+        border:1px solid #ccc;
+        border-radius:5px
+        }
+        #centralwidget QPushButton{
+        background-color: rgb(0, 208, 24);
+        border:0px;
+        border-radius:5px;
+        color:#fff;
+        padding:3px;
+        }
+        #centralwidget QPushButton::hover{
+        background-color: rgb(0, 100, 10);
+        }</string>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+          <widget class="QLabel" name="label">
+            <property name="text">
+              <string>答案</string>
+            </property>
+          </widget>
+        </item>
+        <item row="3" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+              <widget class="QPushButton" name="copyBtn">
+                <property name="text">
+                  <string>复制</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="exportBtn">
+                <property name="text">
+                  <string>导出</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="openFolderBtn">
+                <property name="text">
+                  <string>打开文件夹获取答案</string>
+                </property>
+              </widget>
+            </item>
+            <item>
+              <widget class="QPushButton" name="settingsBtn">
+                <property name="text">
+                  <string>设置</string>
+                </property>
+              </widget>
+            </item>
+          </layout>
+        </item>
+        <item row="1" column="0">
+          <widget class="QTextBrowser" name="textBrowser">
+            <property name="styleSheet">
+              <string notr="true">QMainWindow{
+                background-color:#fff
+                }</string>
+            </property>
+          </widget>
+        </item>
+        <item row="6" column="0">
+          <widget class="QLabel" name="status_lb">
+            <property name="styleSheet">
+              <string notr="true">/*background-color: rgb(19, 194, 0);*/
+                color:#fff;
+                border-radius:5px;
+                background-color: rgb(0, 121, 14);</string>
+            </property>
+            <property name="text">
+              <string>状态：未启动</string>
+            </property>
+          </widget>
+        </item>
+      </layout>
+    </widget>
+    <widget class="QMenuBar" name="menubar">
+      <property name="geometry">
+        <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>640</width>
+          <height>33</height>
+        </rect>
+      </property>
+    </widget>
+  </widget>
+  <resources>
+    <include location="main.qrc" />
+  </resources>
+  <connections />
+</ui>

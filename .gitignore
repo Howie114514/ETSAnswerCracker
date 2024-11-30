@@ -1,0 +1,6 @@
+page/
+dist/
+build/
+__pycache__/
+DLL/
+config.ini
