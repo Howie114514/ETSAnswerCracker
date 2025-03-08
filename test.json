@@ -1,0 +1,215 @@
+{
+  "structure_type": "collector.role",
+  "info": {
+    "question": [
+      {
+        "std": [
+          {
+            "value": "It’s about inventors.",
+            "ai": "It’s about inventors.",
+            "audio": ""
+          },
+          {
+            "value": "Today’s competition is about inventors.",
+            "ai": "Today’s competition is about inventors.",
+            "audio": ""
+          },
+          {
+            "value": "It is about inventors.",
+            "ai": "It is about inventors.",
+            "audio": ""
+          },
+          {
+            "value": "The competition is about inventors.",
+            "ai": "The competition is about inventors.",
+            "audio": ""
+          },
+          { "value": "Inventors.", "ai": "Inventors.", "audio": "" }
+        ],
+        "ref": [],
+        "ask": "ets_th1 What is today’s competition about?",
+        "answer": "",
+        "askaudio": "ques1askaudio.mp3",
+        "aswaudio": "",
+        "xh": "1",
+        "analyze": "",
+        "sucai": "",
+        "keywords": "inventors",
+        "role": "b"
+      },
+      {
+        "std": [
+          {
+            "value": "No, there aren’t.",
+            "ai": "No, there aren’t.",
+            "audio": ""
+          },
+          {
+            "value": "No, there are no five groups in the competition.",
+            "ai": "No, there are no five groups in the competition.",
+            "audio": ""
+          },
+          {
+            "value": "No, there are not five groups in the competition.",
+            "ai": "No, there are not five groups in the competition.",
+            "audio": ""
+          },
+          {
+            "value": "No, there are not.",
+            "ai": "No, there are not.",
+            "audio": ""
+          },
+          {
+            "value": "No, there aren’t five groups in the competition.",
+            "ai": "No, there aren’t five groups in the competition.",
+            "audio": ""
+          }
+        ],
+        "ref": [],
+        "ask": "ets_th2 Are there five groups in the competition?",
+        "answer": "",
+        "askaudio": "ques2askaudio.mp3",
+        "aswaudio": "",
+        "xh": "2",
+        "analyze": "",
+        "sucai": "",
+        "keywords": "No",
+        "role": "b"
+      },
+      {
+        "std": [
+          {
+            "value": "They should put up their hands.",
+            "ai": "They should put up their hands.",
+            "audio": ""
+          },
+          {
+            "value": "The groups should raise their hands before they answer the questions.",
+            "ai": "The groups should raise their hands before they answer the questions.",
+            "audio": ""
+          },
+          {
+            "value": "The groups should put up their hands.",
+            "ai": "The groups should put up their hands.",
+            "audio": ""
+          },
+          {
+            "value": "The group members should put up their hands.",
+            "ai": "The group members should put up their hands.",
+            "audio": ""
+          },
+          {
+            "value": "Put up their hands before they answer the questions.",
+            "ai": "Put up their hands before they answer the questions.",
+            "audio": ""
+          },
+          {
+            "value": "They should put up their hands before they answer the questions.",
+            "ai": "They should put up their hands before they answer the questions.",
+            "audio": ""
+          },
+          {
+            "value": "The groups should put up their hands before they answer the questions.",
+            "ai": "The groups should put up their hands before they answer the questions.",
+            "audio": ""
+          },
+          {
+            "value": "The group members should put up their hands before they answer the questions.",
+            "ai": "The group members should put up their hands before they answer the questions.",
+            "audio": ""
+          },
+          {
+            "value": "Raise their hands.",
+            "ai": "Raise their hands.",
+            "audio": ""
+          },
+          {
+            "value": "They should raise their hands.",
+            "ai": "They should raise their hands.",
+            "audio": ""
+          },
+          {
+            "value": "The groups should raise their hands.",
+            "ai": "The groups should raise their hands.",
+            "audio": ""
+          },
+          {
+            "value": "The group members should raise their hands.",
+            "ai": "The group members should raise their hands.",
+            "audio": ""
+          },
+          {
+            "value": "Raise their hands before they answer the questions.",
+            "ai": "Raise their hands before they answer the questions.",
+            "audio": ""
+          },
+          {
+            "value": "They should raise their hands before they answer the questions.",
+            "ai": "They should raise their hands before they answer the questions.",
+            "audio": ""
+          },
+          {
+            "value": "The group members should raise their hands before they answer the questions.",
+            "ai": "The group members should raise their hands before they answer the questions.",
+            "audio": ""
+          },
+          {
+            "value": "Put up their hands.",
+            "ai": "Put up their hands.",
+            "audio": ""
+          }
+        ],
+        "ref": [],
+        "ask": "ets_th3 What should the groups do before they answer the questions?",
+        "answer": "",
+        "askaudio": "ques3askaudio.mp3",
+        "aswaudio": "",
+        "xh": "3",
+        "analyze": "",
+        "sucai": "",
+        "keywords": "put hands|raise hands",
+        "role": "b"
+      },
+      {
+        "std": [
+          {
+            "value": "The first inventor was born in 1706.",
+            "ai": "The first inventor was born in 1706.",
+            "audio": ""
+          },
+          {
+            "value": "He was born in the year of 1706.",
+            "ai": "He was born in the year of 1706.",
+            "audio": ""
+          },
+          {
+            "value": "He was born in 1706.",
+            "ai": "He was born in 1706.",
+            "audio": ""
+          },
+          {
+            "value": "The first inventor in the year of 1706.",
+            "ai": "The first inventor in the year of 1706.",
+            "audio": ""
+          },
+          { "value": "In 1706.", "ai": "In 1706.", "audio": "" }
+        ],
+        "ref": [],
+        "ask": "ets_th4 When was the first inventor born?",
+        "answer": "",
+        "askaudio": "ques4askaudio.mp3",
+        "aswaudio": "",
+        "xh": "4",
+        "analyze": "",
+        "sucai": "",
+        "keywords": "seventeen o six|seventeen zero six",
+        "role": "b"
+      }
+    ],
+    "image": "",
+    "video": "",
+    "value": "</p><p>Hello! Today’s competition is about inventors. I’ll describe the inventors, and all the four groups here will guess who I’m describing. Each correct answer will earn you 20 points and each wrong answer will cost you 10 points. Remember to put up your hands if you have the answer. When I see your hands up, I’ll ask your group to answer. Now let’s start. The first inventor for you to guess is a man. He was born in 1706 in Boston. In 1752, he flew a kite on a rainy day so as to study lightning. Does any group know the answer?",
+    "stid": "40888",
+    "audio": "content.mp3"
+  }
+}

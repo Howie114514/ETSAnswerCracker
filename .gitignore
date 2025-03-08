@@ -1,6 +1,7 @@
-page/
-dist/
-build/
-__pycache__/
-DLL/
-config.ini
+/page/
+/dist/
+/build/
+/__pycache__/
+/DLL/
+/config.ini
+/venv

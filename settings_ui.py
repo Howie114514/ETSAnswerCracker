@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'settings.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.7.2
+## Created by: Qt User Interface Compiler version 6.8.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -15,33 +15,15 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QDialog,
-    QFormLayout, QHBoxLayout, QLabel, QLineEdit,
-    QPushButton, QSizePolicy, QVBoxLayout, QWidget)
+from PySide6.QtWidgets import (QApplication, QComboBox, QDialog, QFormLayout,
+    QHBoxLayout, QLabel, QLineEdit, QPushButton,
+    QSizePolicy, QVBoxLayout, QWidget)
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         if not Dialog.objectName():
             Dialog.setObjectName(u"Dialog")
-        Dialog.resize(351, 298)
-        Dialog.setStyleSheet(u"QDialog{\n"
-"  background-color:#fff\n"
-"}\n"
-"QTextBrowser{\n"
-"  background-color:#fff;\n"
-"  border:1px solid #ccc;\n"
-"  border-radius:5px\n"
-"}\n"
-"QPushButton{\n"
-"	background-color: rgb(0, 208, 24);\n"
-"	border:0px;\n"
-"	border-radius:5px;\n"
-"	color:#fff;\n"
-"	padding:3px;\n"
-"}\n"
-"QPushButton::hover{\n"
-"	background-color: rgb(0, 100, 10);\n"
-"}")
+        Dialog.resize(351, 288)
         self.verticalLayout = QVBoxLayout(Dialog)
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.label = QLabel(Dialog)
@@ -49,9 +31,9 @@ class Ui_Dialog(object):
         self.label.setMinimumSize(QSize(0, 30))
         self.label.setMaximumSize(QSize(16777215, 30))
         self.label.setStyleSheet(u"background-color: rgb(189, 167, 0);\n"
-"border-radius:5px;\n"
-"color:#fff;\n"
-"padding:2px;")
+"              border-radius:5px;\n"
+"              color:#fff;\n"
+"              padding:2px;")
 
         self.verticalLayout.addWidget(self.label)
 
@@ -89,15 +71,17 @@ class Ui_Dialog(object):
 
         self.formLayout.setWidget(3, QFormLayout.FieldRole, self.answerDisplayTypeCB)
 
-        self.Label_2 = QLabel(Dialog)
-        self.Label_2.setObjectName(u"Label_2")
+        self.Label_3 = QLabel(Dialog)
+        self.Label_3.setObjectName(u"Label_3")
 
-        self.formLayout.setWidget(4, QFormLayout.LabelRole, self.Label_2)
+        self.formLayout.setWidget(4, QFormLayout.LabelRole, self.Label_3)
 
-        self.CheckBox = QCheckBox(Dialog)
-        self.CheckBox.setObjectName(u"CheckBox")
+        self.themeCB = QComboBox(Dialog)
+        self.themeCB.addItem("")
+        self.themeCB.addItem("")
+        self.themeCB.setObjectName(u"themeCB")
 
-        self.formLayout.setWidget(4, QFormLayout.FieldRole, self.CheckBox)
+        self.formLayout.setWidget(4, QFormLayout.FieldRole, self.themeCB)
 
 
         self.verticalLayout.addLayout(self.formLayout)
@@ -106,29 +90,6 @@ class Ui_Dialog(object):
         self.devOptions.setObjectName(u"devOptions")
         self.verticalLayout_2 = QVBoxLayout(self.devOptions)
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
-        self.label_2 = QLabel(self.devOptions)
-        self.label_2.setObjectName(u"label_2")
-        self.label_2.setStyleSheet(u"padding:0px;\n"
-"margin:0px;\n"
-"border:0px;")
-
-        self.verticalLayout_2.addWidget(self.label_2)
-
-        self.formLayout_2 = QFormLayout()
-        self.formLayout_2.setObjectName(u"formLayout_2")
-        self.showDllConsoleCB = QCheckBox(self.devOptions)
-        self.showDllConsoleCB.setObjectName(u"showDllConsoleCB")
-
-        self.formLayout_2.setWidget(0, QFormLayout.FieldRole, self.showDllConsoleCB)
-
-        self.dllLabel = QLabel(self.devOptions)
-        self.dllLabel.setObjectName(u"dllLabel")
-
-        self.formLayout_2.setWidget(0, QFormLayout.LabelRole, self.dllLabel)
-
-
-        self.verticalLayout_2.addLayout(self.formLayout_2)
-
 
         self.verticalLayout.addWidget(self.devOptions)
 
@@ -165,9 +126,10 @@ class Ui_Dialog(object):
         self.answerDisplayTypeCB.setItemText(0, QCoreApplication.translate("Dialog", u"\u6700\u77ed\u7b54\u6848", None))
         self.answerDisplayTypeCB.setItemText(1, QCoreApplication.translate("Dialog", u"\u5168\u90e8\u7b54\u6848", None))
 
-        self.Label_2.setText(QCoreApplication.translate("Dialog", u"\u663e\u793a\u5f00\u53d1\u8005\u9009\u9879", None))
-        self.label_2.setText(QCoreApplication.translate("Dialog", u"\u5f00\u53d1\u8005\u9009\u9879", None))
-        self.dllLabel.setText(QCoreApplication.translate("Dialog", u"\u663e\u793adll\u63a7\u5236\u53f0", None))
+        self.Label_3.setText(QCoreApplication.translate("Dialog", u"\u4e3b\u9898", None))
+        self.themeCB.setItemText(0, QCoreApplication.translate("Dialog", u"Light", None))
+        self.themeCB.setItemText(1, QCoreApplication.translate("Dialog", u"Dark", None))
+
         self.about.setText(QCoreApplication.translate("Dialog", u"\u5173\u4e8e", None))
         self.save.setText(QCoreApplication.translate("Dialog", u"\u4fdd\u5b58", None))
         self.cancel.setText(QCoreApplication.translate("Dialog", u"\u53d6\u6d88", None))

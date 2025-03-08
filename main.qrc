@@ -2,5 +2,7 @@
   <qresource prefix="main">
     <file>icon.ico</file>
     <file>logo.png</file>
+    <file>themes/light.css</file>
+    <file>themes/dark.css</file>
   </qresource>
 </RCC>

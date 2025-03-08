@@ -1,0 +1,35 @@
+#centralwidget,
+QDialog,
+QMainWindow {
+  background-color: #484848;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+#centralwidget QTextBrowser {
+  background-color: #575757;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+}
+QPushButton {
+  background-color: rgb(67, 84, 196);
+  border-radius: 10%;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+}
+QLineEdit,
+QComboBox,
+QListWidget {
+  background-color: #818181;
+  color: #fff;
+}
+QPushButton::hover {
+  background-color: rgb(51, 65, 155);
+}
+QPushButton::pressed {
+  background-color: rgb(45, 55, 122);
+}
+QLabel {
+  color: #fff;
+}

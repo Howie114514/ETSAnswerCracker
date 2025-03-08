@@ -24,3 +24,11 @@ def executableByProcess(regexp=".*"):
         
 def isValidDir(p):
     return (p and os.path.isdir(p))
+
+def run(*funcs,args=[]):
+    for f in funcs:
+        f(*args)
+
+def runIf(a,*funcs,args=[]):
+    if a:
+        run(*funcs,args=args)

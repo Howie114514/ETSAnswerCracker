@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'about.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.7.2
+## Created by: Qt User Interface Compiler version 6.8.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -23,24 +23,6 @@ class Ui_Dialog(object):
         if not Dialog.objectName():
             Dialog.setObjectName(u"Dialog")
         Dialog.resize(328, 129)
-        Dialog.setStyleSheet(u"QDialog{\n"
-"  background-color:#fff\n"
-"}\n"
-"QTextBrowser{\n"
-"  background-color:#fff;\n"
-"  border:1px solid #ccc;\n"
-"  border-radius:5px\n"
-"}\n"
-"QPushButton{\n"
-"	background-color: rgb(0, 208, 24);\n"
-"	border:0px;\n"
-"	border-radius:5px;\n"
-"	color:#fff;\n"
-"	padding:3px;\n"
-"}\n"
-"QPushButton::hover{\n"
-"	background-color: rgb(0, 100, 10);\n"
-"}")
         self.verticalLayout = QVBoxLayout(Dialog)
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.textBrowser = QTextBrowser(Dialog)
@@ -73,9 +55,9 @@ class Ui_Dialog(object):
 "li.unchecked::marker { content: \"\\2610\"; }\n"
 "li.checked::marker { content: \"\\2612\"; }\n"
 "</style></head><body style=\" font-family:'Microsoft YaHei UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\u4e00\u6b3e\u7528\u4e8e\u7834\u89e3ets\u7b54\u6848\u7684\u5de5\u5177</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\u4f5c\u8005\uff1aHowieMC</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"#\"><span style=\" text-"
-                        "decoration: underline; color:#0078d4;\">\u514d\u8d23\u58f0\u660e</span></a></p></body></html>", None))
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\u4e00\u6b3e\u7528\u4e8e\u7834\u89e3ets\u7b54\u6848\u7684\u5de5\u5177              </p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\u4f5c\u8005\uff1aHowieMC              </p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a hre"
+                        "f=\"#\"><span style=\" text-decoration: underline; color:#0078d4;\">\u514d\u8d23\u58f0\u660e</span></a></p></body></html>", None))
     # retranslateUi
 
